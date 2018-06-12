@@ -30,12 +30,12 @@ public class HelloWorldTest {
     
     @Test
     public void HelloTest() {
-        assertThat(hello.Hello(), containsString("Hello"));
+        assertThat(hello.Hello(), containsString("Hell"));
     }
     
     @Test
     public void WorldTest(){
-        assertThat(world.World(), containsString("World"));
+        assertThat(world.World(), containsString("Worl"));
     }
     
     @Before
